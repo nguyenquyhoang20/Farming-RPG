@@ -1,0 +1,13 @@
+# This folder will contain your Unity WebGL build
+# Build your game in Unity to this folder:
+# File -> Build Settings -> Build -> Select "Build" folder
+
+# After building, you should have:
+# Build/
+# ├── index.html
+# ├── Build/
+# │   ├── Build.data.gz
+# │   ├── Build.framework.js.gz
+# │   ├── Build.loader.js
+# │   └── Build.wasm.gz
+# └── TemplateData/

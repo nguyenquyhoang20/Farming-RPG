@@ -1,0 +1,19 @@
+# Custom Domain Configuration
+# 
+# To use a custom domain (e.g., roguerush.com):
+# 
+# 1. Uncomment the line below and replace with your domain
+# 2. Configure DNS at your domain provider:
+#    - Add CNAME record: @ → YOUR_USERNAME.github.io
+#    - Or A records pointing to GitHub IPs:
+#      185.199.108.153
+#      185.199.109.153
+#      185.199.110.153
+#      185.199.111.153
+# 3. Push this file to GitHub
+# 4. Enable in Settings → Pages → Custom domain
+#
+# Example:
+# roguerush.com
+#
+# Leave commented to use default: YOUR_USERNAME.github.io/rogue-rush/
