@@ -1,12 +1,12 @@
-# 🎮 Rogue Rush
+# 🎮 Farming RPG
 
-A professional WebGL action game built with clean architecture, reusable systems, and optimization mindset.
+A Unity 2D Farming RPG game — an educational project built while following a Udemy course. Demonstrates Unity 2D fundamentals, scene management, inventory systems, and more.
 
-[![Deploy to GitHub Pages](https://github.com/YOUR_USERNAME/rogue-rush/actions/workflows/deploy.yml/badge.svg)](https://github.com/YOUR_USERNAME/rogue-rush/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/nguyenquyhoang20/Farming-RPG/actions/workflows/deploy.yml/badge.svg)](https://github.com/nguyenquyhoang20/Farming-RPG/actions/workflows/deploy.yml)
 
 ## 🎯 Play Online
 
-**Live Demo:** [https://YOUR_USERNAME.github.io/rogue-rush/](https://YOUR_USERNAME.github.io/rogue-rush/)
+**Live Demo:** [https://nguyenquyhoang20.github.io/Farming-RPG/](https://nguyenquyhoang20.github.io/Farming-RPG/)
 
 ## 🎮 Controls
 
@@ -239,22 +239,27 @@ This project demonstrates:
 - ✅ Loading screens
 - ✅ Playable ads CTA
 
-## 🤝 Contributing
+## 📚 Credits & Attribution
 
-This is a portfolio/learning project. Feel free to fork and use as reference!
+> **Educational Project Notice**
+>
+> This game was developed by **Nguyen Quy Hoang** as a learning exercise,
+> following a Farming RPG course on **Udemy**.
+>
+> - **Course Assets** (sprites, audio, artwork): Property of the course instructor. All rights reserved.
+> - **Student Code**: Written by me while learning. Shared here for portfolio purposes only.
+> - **Not for redistribution or commercial use.**
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+See [LICENSE](LICENSE) for details. This is an educational project — course assets belong to their respective owners.
 
 ## 📞 Contact
 
-- **Portfolio**: [YOUR_PORTFOLIO_URL]
-- **LinkedIn**: [YOUR_LINKEDIN]
-- **GitHub**: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- **GitHub**: [@nguyenquyhoang20](https://github.com/nguyenquyhoang20)
 
 ---
 
-**Built with production standards for WebGL deployment** 🚀
+**Educational project — Built to learn Unity 2D game development** 🌱
 
-**Play now:** [https://YOUR_USERNAME.github.io/rogue-rush/](https://YOUR_USERNAME.github.io/rogue-rush/)
+**Play now:** [https://nguyenquyhoang20.github.io/Farming-RPG/](https://nguyenquyhoang20.github.io/Farming-RPG/)
