@@ -3,6 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
+      - main
       - gh-pages
   workflow_dispatch:
 
@@ -24,15 +25,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
+
+      - name: Decompress Unity WebGL Build (fix gzip issue)
+        run: |
+          # Giải nén các file .gz trong thư mục Build
+          for f in Build/*.gz; do
+            [ -f "$f" ] && gunzip -f "$f" && echo "Decompressed: $f"
+          done
+
+          # Sửa index.html để trỏ đến file đã giải nén
+          sed -i 's/\.data\.gz/\.data/g' index.html
+          sed -i 's/\.framework\.js\.gz/\.framework\.js/g' index.html
+          sed -i 's/\.wasm\.gz/\.wasm/g' index.html
+
+          echo "=== Files in Build after decompression ==="
+          ls -lh Build/
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
-          
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
