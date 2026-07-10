@@ -1,4 +1,4 @@
-## Thiết Kế Và Lập Trình Tích Hợp - Dự Án Farming RPG
+Thiết Kế Và Lập Trình Tích Hợp - Dự Án Farming RPG
 1. TỔNG QUAN VỀ GAME VÀ ĐIỂM ĐỘC ĐÁO CỐT LÕI
 Thế mạnh thiết kế (Điểm hấp dẫn của game)
 Trải nghiệm chính của game xoay quanh cuộc sống nông trại kết hợp nhập vai. Điểm độc đáo giúp game thu hút người chơi là:
